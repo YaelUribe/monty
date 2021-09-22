@@ -52,7 +52,6 @@ void pall(stack_t **stack, unsigned int line_number __attribute__((unused)))
  */
 void pint(stack_t **stack, unsigned int line_number)
 {
-	printf("[%d]\n", (*stack)->n);
 	if (*stack == NULL)
 	{
 		dprintf(STDERR_FILENO, "L%d: can't pint, stack empty\n", line_number);
