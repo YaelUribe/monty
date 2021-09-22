@@ -38,6 +38,12 @@ void nop(stack_t **stack, unsigned int line_number)
 	(void) line_number;
 }
 
+/**
+ * sub - substracts the n value of two top elements in stack
+ * @stack: Pointer to top of the stack
+ * @line_number: Instruction line number
+ * Return: void
+ */
 void sub(stack_t **stack, unsigned int line_number)
 {
 	stack_t *copy = NULL;
